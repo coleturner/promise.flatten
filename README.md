@@ -1,8 +1,16 @@
-# promiseFlatten
+# 🥞 promise.flatten
 Resolves a promise with [response, error] instead of using a try/catch block
 
 ```sh
 npm install promise.flatten
+```
+
+## How to use
+
+```js
+import promiseFlatten from 'promise.flatten';
+
+const [response, error] = await promiseFlatten(fetch('https://google.com/'));
 ```
 
 ## Why?
