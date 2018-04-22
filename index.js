@@ -1,4 +1,4 @@
-export default async function promiseSpread(promise) {
+export default async function promiseFlatten(promise) {
   try {
     return [await promise, null]
   } catch (e) {

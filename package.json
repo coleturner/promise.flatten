@@ -1,0 +1,9 @@
+{
+  "name": "promise.flatten",
+  "version": "1.0.0",
+  "description": "Resolves a promise with [response, error] instead of using a try/catch block",
+  "main": "index.js",
+  "repository": "https://github.com/coleturner/promiseSpread.git",
+  "author": "Cole Turner <turner.cole@gmail.com>",
+  "license": "MIT"
+}
